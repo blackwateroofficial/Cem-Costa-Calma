@@ -17,8 +17,10 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   viewportFit: "cover",
-  colorScheme: "light",
-  themeColor: "#f3f6f5",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f3f6f5" },
+    { media: "(prefers-color-scheme: dark)", color: "#f3f6f5" },
+  ],
 };
 
 const dmSans = DM_Sans({
@@ -39,8 +41,20 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
   const locale = isLocale(headerLocale) ? headerLocale : defaultLocale;
 
   return (
-    <html lang={locale} className={`${dmSans.variable} ${inter.variable} overflow-x-hidden`} suppressHydrationWarning>
-      <body className="min-h-dvh min-w-0 bg-warm antialiased" suppressHydrationWarning>{children}</body>
+    <html
+      lang={locale}
+      className={`${dmSans.variable} ${inter.variable} overflow-x-hidden`}
+      style={{ colorScheme: "only light", backgroundColor: "#f3f6f5" }}
+      suppressHydrationWarning
+    >
+      <head>
+        <meta name="color-scheme" content="only light" />
+        <meta name="supported-color-schemes" content="light" />
+        <meta name="nightmode" content="disable" />
+      </head>
+      <body className="min-h-dvh min-w-0 bg-warm text-ink antialiased" suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }
