@@ -43,7 +43,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
       <main id="contenido" className="min-w-0 pb-[calc(6.75rem+env(safe-area-inset-bottom))] md:pb-0">
         {children}
       </main>
-      <Footer locale={locale} dictionary={dictionary} page={page} />
+      <Footer dictionary={dictionary} />
       <MobileBottomBar dictionary={dictionary} />
     </>
   );
