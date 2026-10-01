@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #123447;
+  --color-navy-deep: #0c2430;
+  --color-teal: #2d7c7b;
+  --color-teal-dark: #246564;
+  --color-sand: #d8c7a5;
+  --color-warm: #f3f6f5;
+  --color-ink: #24343b;
+  --color-muted: #5b6b72;
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-dm-sans);
+  --shadow-card: 0 18px 50px rgb(18 52 71 / 0.08);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background: var(--color-warm);
+  color: var(--color-ink);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  font-size: 1rem;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+  letter-spacing: -0.03em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-teal);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--color-sand) 70%, white);
+  color: var(--color-navy);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fade-in {
+  animation: fade-up 0.7s ease-out both;
+}

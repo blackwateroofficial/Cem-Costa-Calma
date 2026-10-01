@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "siteName": "Centro Médico Ever Grillo",
+    "brandLine": "Euromedica Jandía"
+  },
+  "common": {
+    "call": "Call",
+    "callNow": "Call now",
+    "directions": "Get directions",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to content"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "center": "The centre",
+    "info": "Information",
+    "contact": "Contact"
+  },
+  "hero": {
+    "welcome": "Welcome to",
+    "title": "Cem Costa Calma",
+    "subtitle": "Centro Médico Ever Grillo – Euromedica Jandía",
+    "text": "A clinic where your health comes first.",
+    "imageAlt": "Illustrated Jandía landscape. Decorative image, not a photograph of the centre."
+  },
+  "quickInfo": {
+    "hoursLabel": "Hours",
+    "hoursValue": "24 hours",
+    "alwaysOpen": "24 h",
+    "everyDay": "Every day",
+    "openHours": "09:00 – 20:00",
+    "openLabel": "Clinic open",
+    "onCallHours": "20:00 – 09:00",
+    "onCallLabel": "On-call doctor",
+    "careLabel": "Specialties",
+    "careValue": "General medicine, emergency care and more"
+  },
+  "insurers": {
+    "title": "Insurers",
+    "intro": "We work with insurance companies:",
+    "national": "National",
+    "international": "International",
+    "private": "We also see private patients.",
+    "nationalAlt": "Logos of Adeslas, Caser, DKV, MAPFRE, Sanitas, Divina Pastora, Allianz and Asepeyo.",
+    "internationalAlt": "Logos of Semesur Assistance, Europ Assistance, International SOS, Veratour and Mondial Assistance."
+  },
+  "serviceHighlights": {
+    "title": "Services",
+    "items": {
+      "generalAmbulance": {
+        "title": "General medicine and ambulances",
+        "text": "Emergency medical service 24 hours a day, 365 days a year."
+      },
+      "diagnostics": {
+        "title": "Diagnostic services such as X-rays, clinical laboratory and electrocardiogram",
+        "text": ""
+      },
+      "homeVisits": {
+        "title": "Home visits and specialists",
+        "text": ""
+      },
+      "covid": {
+        "title": "SARS-CoV-2 tests",
+        "text": "We carry out SARS-CoV-2 related tests. Please call for more information:"
+      }
+    }
+  },
+  "services": {
+    "title": "Specialties",
+    "text": "These specialties appear on the centre’s public listing. Please call to confirm availability.",
+    "viewAll": "View all specialties",
+    "items": {
+      "general": {
+        "name": "General medicine",
+        "description": "General medicine consultations."
+      },
+      "emergency": {
+        "name": "Emergency medicine",
+        "description": "Emergency care. Please call the centre to confirm availability."
+      },
+      "family": {
+        "name": "Family and community medicine",
+        "description": "Family and community medicine."
+      },
+      "psychology": {
+        "name": "Psychology",
+        "description": "Psychology consultations. Call for more information."
+      },
+      "radiology": {
+        "name": "Radiology",
+        "description": "Radiology service. Please call to check availability."
+      }
+    }
+  },
+  "tourist": {
+    "title": "If you are visiting Fuerteventura",
+    "text": "If you are in Jandía and need a medical centre, call or use Get directions.",
+    "blocks": [
+      {
+        "title": "Do you need medical care?",
+        "text": "Call to ask whether we can see you and when."
+      },
+      {
+        "title": "Are you travelling?",
+        "text": "Please ask reception about languages and insurance."
+      }
+    ]
+  },
+  "about": {
+    "title": "A medical centre in Jandía",
+    "text": "Centro Médico Ever Grillo – Euromedica Jandía, in the south of Fuerteventura.",
+    "more": "For questions about appointments or availability, please contact the centre directly.",
+    "registerLabel": "Health registration",
+    "facts": [
+      {
+        "label": "Name",
+        "value": "Centro Médico Ever Grillo – Euromedica Jandía"
+      }
+    ]
+  },
+  "facilities": {
+    "title": "Facilities",
+    "text": "Reception, waiting areas and consultation rooms.",
+    "alts": [
+      "Centre reception",
+      "Reception entrance",
+      "Waiting area",
+      "Reception desk",
+      "Consultation room",
+      "Examination room",
+      "Treatment bay",
+      "Ultrasound room"
+    ]
+  },
+  "reviews": {
+    "title": "Google rating",
+    "score": "4.7 / 5",
+    "basedOn": "According to public Google reviews",
+    "cta": "View on Google"
+  },
+  "location": {
+    "title": "How to find us",
+    "name": "Centro Médico Ever Grillo – Euromedica Jandía",
+    "addressLabel": "Address",
+    "address": "Avenida del Saladar, C.C. Cosmo, plot 7A, 35625 Morro Jable",
+    "phoneLabel": "Telephone",
+    "mapAlt": "Search map for Centro Comercial Cosmo in Morro Jable",
+    "mapNote": "Google Maps based on the published address. Use Get directions for the route."
+  },
+  "contact": {
+    "title": "Contact the centre",
+    "text": "Call or use Get directions."
+  },
+  "infoPage": {
+    "title": "Practical information",
+    "intro": "Clinic open from 09:00 to 20:00. An on-call doctor covers the rest of the day.",
+    "items": [
+      {
+        "title": "What is this centre?",
+        "text": "Centro Médico Ever Grillo – Euromedica Jandía, a medical centre in Jandía, Fuerteventura."
+      },
+      {
+        "title": "Which specialties are listed publicly?",
+        "text": "General medicine, emergency medicine, family and community medicine, psychology and radiology."
+      },
+      {
+        "title": "When can I visit?",
+        "text": "The clinic is open from 09:00 to 20:00. From 20:00 to 09:00 an on-call doctor is available. Care 24 hours a day, every day."
+      },
+      {
+        "title": "How do I get there?",
+        "text": "Use the Get directions button."
+      }
+    ]
+  },
+  "social": {
+    "title": "Follow us",
+    "text": "Find us on Facebook, Instagram and X.",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter"
+  },
+  "footer": {
+    "legal": "Legal",
+    "legalNotice": "Legal notice",
+    "privacy": "Privacy policy",
+    "cookies": "Cookie policy",
+    "contact": "Contact",
+    "socialTitle": "Follow us",
+    "socialText": "Stay up to date with all the latest news on our social channels.",
+    "rights": "Centro Médico Ever Grillo – Euromedica Jandía. Morro Jable, Fuerteventura."
+  },
+  "legal": {
+    "legalNotice": {
+      "title": "Legal notice",
+      "intro": "This notice identifies the information website of Centro Médico Ever Grillo – Euromedica Jandía. It does not replace a medical consultation.",
+      "sections": [
+        {
+          "title": "Owner",
+          "text": "The published contact details are telephone 928 542 402 and the address at Centro Comercial Cosmo, plot 7A, 35625 Morro Jable. Full company registration details will be added when the centre provides them for publication."
+        },
+        {
+          "title": "Purpose",
+          "text": "This site provides general information on location, contact details and publicly listed specialties. It is not medical advice."
+        },
+        {
+          "title": "Content",
+          "text": "The information is based on public listings for the centre. If you notice an error, please call the telephone number shown."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy policy",
+      "intro": "Basic information about data processing on this site.",
+      "sections": [
+        {
+          "title": "Contact",
+          "text": "To exercise your rights or ask about your data, please call 928 542 402."
+        },
+        {
+          "title": "Language",
+          "text": "A local preference may be stored to remember the website language."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie policy",
+      "intro": "Information about cookies on this site.",
+      "sections": [
+        {
+          "title": "Language preference",
+          "text": "The site may store the selected language (ES, EN or DE) for your next visit."
+        },
+        {
+          "title": "Maps",
+          "text": "The location section may load a Google map. Google may use its own cookies according to its policy."
+        }
+      ]
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Centro Médico Ever Grillo | Medical Centre in Jandía",
+      "description": "Centro Médico Ever Grillo – Euromedica Jandía. C.C. Cosmo, Morro Jable. Telephone 928 542 402."
+    },
+    "services": {
+      "title": "Specialties | Centro Médico Ever Grillo",
+      "description": "General medicine, emergency care, family medicine, psychology and radiology at Centro Médico Ever Grillo, Morro Jable."
+    },
+    "center": {
+      "title": "The centre | Centro Médico Ever Grillo",
+      "description": "Centro Médico Ever Grillo – Euromedica Jandía, at Centro Comercial Cosmo in Morro Jable, Fuerteventura."
+    },
+    "info": {
+      "title": "Information | Centro Médico Ever Grillo",
+      "description": "Address, telephone and practical information for Centro Médico Ever Grillo in Morro Jable."
+    },
+    "contact": {
+      "title": "Contact | Centro Médico Ever Grillo",
+      "description": "Call 928 542 402. Centro Médico Ever Grillo – Euromedica Jandía, C.C. Cosmo, Morro Jable."
+    },
+    "legal": {
+      "title": "Legal notice | Centro Médico Ever Grillo",
+      "description": "Legal notice for the Centro Médico Ever Grillo – Euromedica Jandía website."
+    },
+    "privacy": {
+      "title": "Privacy policy | Centro Médico Ever Grillo",
+      "description": "Privacy information for the Centro Médico Ever Grillo website."
+    },
+    "cookies": {
+      "title": "Cookie policy | Centro Médico Ever Grillo",
+      "description": "Cookie information for the Centro Médico Ever Grillo website."
+    }
+  }
+}

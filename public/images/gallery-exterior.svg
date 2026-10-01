@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#e8ece7"/>
+  <rect x="80" y="160" width="640" height="680" fill="#d8c7a5" opacity="0.45"/>
+  <rect x="80" y="160" width="640" height="48" fill="#123447"/>
+  <text x="400" y="900" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#123447">DEMO � Exterior</text>
+  <text x="400" y="940" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2d7c7b">Imagen provisional</text>
+</svg>

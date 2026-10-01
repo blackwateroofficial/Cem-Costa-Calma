@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#f3eee4"/>
+  <circle cx="400" cy="420" r="180" fill="#2d7c7b" opacity="0.18"/>
+  <rect x="180" y="560" width="440" height="16" fill="#123447" opacity="0.18"/>
+  <text x="400" y="860" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#123447">DEMO � Instalaciones</text>
+  <text x="400" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2d7c7b">Imagen provisional</text>
+</svg>

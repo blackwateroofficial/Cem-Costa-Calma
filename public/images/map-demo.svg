@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img">
+  <rect width="1200" height="800" fill="#e7eeea"/>
+  <path d="M180 430 C260 300 430 250 540 310 C650 250 760 290 820 380 C900 330 1020 390 1040 500 C980 590 760 640 520 610 C300 590 160 540 180 430 Z" fill="#2d7c7b" opacity="0.28"/>
+  <path d="M430 520 C500 490 610 500 680 560 C620 610 500 620 430 520 Z" fill="#123447" opacity="0.35"/>
+  <circle cx="560" cy="540" r="10" fill="#123447"/>
+  <text x="600" y="545" font-family="Arial, sans-serif" font-size="22" fill="#123447">Jand�a � Fuerteventura</text>
+  <text x="600" y="720" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#24343b">Mapa provisional / Demo map  sin coordenadas inventadas</text>
+</svg>

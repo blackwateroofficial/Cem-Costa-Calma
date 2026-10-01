@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "siteName": "Centro Médico Ever Grillo",
+    "brandLine": "Euromedica Jandía"
+  },
+  "common": {
+    "call": "Llamar",
+    "callNow": "Llamar ahora",
+    "directions": "Cómo llegar",
+    "contact": "Contactar",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "skipToContent": "Saltar al contenido"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "center": "El centro",
+    "info": "Información",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "welcome": "Bienvenido a",
+    "title": "Cem Costa Calma",
+    "subtitle": "Centro Médico Ever Grillo – Euromedica Jandía",
+    "text": "Una clínica en donde su salud es lo primero.",
+    "imageAlt": "Paisaje ilustrado de Jandía. Imagen decorativa, no es una fotografía del centro."
+  },
+  "quickInfo": {
+    "hoursLabel": "Horario",
+    "hoursValue": "24 horas",
+    "alwaysOpen": "24 h",
+    "everyDay": "Todos los días",
+    "openHours": "09:00 – 20:00",
+    "openLabel": "Consulta",
+    "onCallHours": "20:00 – 09:00",
+    "onCallLabel": "Médico de guardia",
+    "careLabel": "Especialidades",
+    "careValue": "Medicina general, urgencias y más"
+  },
+  "insurers": {
+    "title": "Aseguradoras",
+    "intro": "Trabajamos con aseguradoras:",
+    "national": "Nacionales",
+    "international": "Internacionales",
+    "private": "También atendemos a particulares.",
+    "nationalAlt": "Logos de Adeslas, Caser, DKV, MAPFRE, Sanitas, Divina Pastora, Allianz y Asepeyo.",
+    "internationalAlt": "Logos de Semesur Assistance, Europ Assistance, International SOS, Veratour y Mondial Assistance."
+  },
+  "serviceHighlights": {
+    "title": "Servicios",
+    "items": {
+      "generalAmbulance": {
+        "title": "Medicina general y ambulancias",
+        "text": "Servicio médico de urgencia las 24 horas durante los 365 días del año."
+      },
+      "diagnostics": {
+        "title": "Medios diagnósticos como radiografías, laboratorio clínico y electrocardiograma",
+        "text": ""
+      },
+      "homeVisits": {
+        "title": "Visitas a domicilio y especialistas",
+        "text": ""
+      },
+      "covid": {
+        "title": "Test SARS-CoV-2",
+        "text": "Hacemos las pruebas relacionadas con SARS-CoV-2. Pide más información en:"
+      }
+    }
+  },
+  "services": {
+    "title": "Especialidades",
+    "text": "Estas especialidades aparecen en el perfil público del centro. Llama para confirmar disponibilidad.",
+    "viewAll": "Ver todas las especialidades",
+    "items": {
+      "general": {
+        "name": "Medicina general",
+        "description": "Consulta de medicina general."
+      },
+      "emergency": {
+        "name": "Medicina de urgencias",
+        "description": "Atención de urgencias. Confirma disponibilidad llamando al centro."
+      },
+      "family": {
+        "name": "Medicina familiar y comunitaria",
+        "description": "Atención de medicina familiar y comunitaria."
+      },
+      "psychology": {
+        "name": "Psicología",
+        "description": "Consulta de psicología. Llama para más información."
+      },
+      "radiology": {
+        "name": "Radiología",
+        "description": "Servicio de radiología. Consulta disponibilidad por teléfono."
+      }
+    }
+  },
+  "tourist": {
+    "title": "Si visitas Fuerteventura",
+    "text": "Si estás en Jandía y necesitas un centro médico, llama o usa Cómo llegar.",
+    "blocks": [
+      {
+        "title": "¿Necesitas atención médica?",
+        "text": "Llama para consultar si podemos atenderte y cuándo."
+      },
+      {
+        "title": "¿Estás de viaje?",
+        "text": "Pregunta en recepción por idiomas y mutuas."
+      }
+    ]
+  },
+  "about": {
+    "title": "Un centro médico en Jandía",
+    "text": "Centro Médico Ever Grillo – Euromedica Jandía, en el sur de Fuerteventura.",
+    "more": "Para cualquier duda sobre consultas o disponibilidad, contacta directamente con el centro.",
+    "registerLabel": "Registro sanitario",
+    "facts": [
+      {
+        "label": "Nombre",
+        "value": "Centro Médico Ever Grillo – Euromedica Jandía"
+      }
+    ]
+  },
+  "facilities": {
+    "title": "Instalaciones",
+    "text": "Recepción, salas de espera y consultas.",
+    "alts": [
+      "Recepción del centro",
+      "Acceso a recepción",
+      "Sala de espera",
+      "Mostrador de atención",
+      "Consulta",
+      "Sala de exploración",
+      "Box de atención",
+      "Sala de ecografía"
+    ]
+  },
+  "reviews": {
+    "title": "Valoración en Google",
+    "score": "4.7 / 5",
+    "basedOn": "Según reseñas públicas de Google",
+    "cta": "Ver en Google"
+  },
+  "location": {
+    "title": "Cómo llegar",
+    "name": "Centro Médico Ever Grillo – Euromedica Jandía",
+    "addressLabel": "Dirección",
+    "address": "Avenida del Saladar, C.C. Cosmo, parcela 7A, 35625 Morro Jable",
+    "phoneLabel": "Teléfono",
+    "mapAlt": "Mapa de búsqueda de Centro Comercial Cosmo en Morro Jable",
+    "mapNote": "Mapa de Google Maps según la dirección publicada. Abre Cómo llegar para la ruta."
+  },
+  "contact": {
+    "title": "Contacta con el centro",
+    "text": "Llama o usa Cómo llegar."
+  },
+  "infoPage": {
+    "title": "Información práctica",
+    "intro": "Consulta de 09:00 a 20:00. El resto del día, médico de guardia.",
+    "items": [
+      {
+        "title": "¿Qué es este centro?",
+        "text": "Centro Médico Ever Grillo – Euromedica Jandía, un centro médico en Jandía, Fuerteventura."
+      },
+      {
+        "title": "¿Qué especialidades aparecen publicadas?",
+        "text": "Medicina general, medicina de urgencias, medicina familiar y comunitaria, psicología y radiología."
+      },
+      {
+        "title": "¿Cuándo puedo acudir?",
+        "text": "La consulta está abierta de 09:00 a 20:00. De 20:00 a 09:00 hay un médico de guardia. Atención las 24 horas, todos los días."
+      },
+      {
+        "title": "¿Cómo llego?",
+        "text": "Usa el botón Cómo llegar."
+      }
+    ]
+  },
+  "social": {
+    "title": "Síguenos",
+    "text": "Visita nuestras redes sociales en Facebook, Instagram y X.",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "twitter": "Twitter"
+  },
+  "footer": {
+    "legal": "Legal",
+    "legalNotice": "Aviso legal",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies",
+    "contact": "Contacto",
+    "socialTitle": "Síguenos",
+    "socialText": "Estate al tanto de todas las novedades en nuestras redes.",
+    "rights": "Centro Médico Ever Grillo – Euromedica Jandía. Morro Jable, Fuerteventura."
+  },
+  "legal": {
+    "legalNotice": {
+      "title": "Aviso legal",
+      "intro": "Este aviso identifica el sitio web informativo de Centro Médico Ever Grillo – Euromedica Jandía. No sustituye una consulta médica.",
+      "sections": [
+        {
+          "title": "Titular",
+          "text": "La información de contacto publicada es el teléfono 928 542 402 y la dirección en el Centro Comercial Cosmo, parcela 7A, 35625 Morro Jable. Los datos registrales completos de la entidad titular se añadirán cuando el centro los facilite para su publicación."
+        },
+        {
+          "title": "Objeto",
+          "text": "Este sitio ofrece información general de localización, contacto y especialidades publicadas. No constituye consejo médico."
+        },
+        {
+          "title": "Contenido",
+          "text": "Los datos se basan en información pública del centro. Si detectas algún error, llama al teléfono indicado."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "intro": "Información básica sobre el tratamiento de datos de este sitio.",
+      "sections": [
+        {
+          "title": "Contacto",
+          "text": "Para ejercer derechos o preguntar sobre tus datos, llama al 928 542 402."
+        },
+        {
+          "title": "Idioma",
+          "text": "Se puede guardar una preferencia local para recordar el idioma de la web."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Política de cookies",
+      "intro": "Información sobre el uso de cookies en este sitio.",
+      "sections": [
+        {
+          "title": "Preferencia de idioma",
+          "text": "La web puede guardar el idioma elegido (ES, EN o DE) para tu próxima visita."
+        },
+        {
+          "title": "Mapas",
+          "text": "La sección de ubicación puede cargar un mapa de Google. Google puede utilizar cookies propias según su política."
+        }
+      ]
+    }
+  },
+  "seo": {
+    "home": {
+      "title": "Centro Médico Ever Grillo | Atención médica en Jandía",
+      "description": "Centro Médico Ever Grillo – Euromedica Jandía. C.C. Cosmo, Morro Jable. Teléfono 928 542 402."
+    },
+    "services": {
+      "title": "Especialidades | Centro Médico Ever Grillo",
+      "description": "Medicina general, urgencias, medicina familiar, psicología y radiología en Centro Médico Ever Grillo, Morro Jable."
+    },
+    "center": {
+      "title": "El centro | Centro Médico Ever Grillo",
+      "description": "Centro Médico Ever Grillo – Euromedica Jandía, en el Centro Comercial Cosmo de Morro Jable, Fuerteventura."
+    },
+    "info": {
+      "title": "Información | Centro Médico Ever Grillo",
+      "description": "Dirección, teléfono y datos prácticos de Centro Médico Ever Grillo en Morro Jable."
+    },
+    "contact": {
+      "title": "Contacto | Centro Médico Ever Grillo",
+      "description": "Llama al 928 542 402. Centro Médico Ever Grillo – Euromedica Jandía, C.C. Cosmo, Morro Jable."
+    },
+    "legal": {
+      "title": "Aviso legal | Centro Médico Ever Grillo",
+      "description": "Aviso legal del sitio web de Centro Médico Ever Grillo – Euromedica Jandía."
+    },
+    "privacy": {
+      "title": "Política de privacidad | Centro Médico Ever Grillo",
+      "description": "Información de privacidad del sitio web de Centro Médico Ever Grillo."
+    },
+    "cookies": {
+      "title": "Política de cookies | Centro Médico Ever Grillo",
+      "description": "Información sobre cookies del sitio web de Centro Médico Ever Grillo."
+    }
+  }
+}

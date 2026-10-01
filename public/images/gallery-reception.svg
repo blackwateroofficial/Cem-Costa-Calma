@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#f7f8f6"/>
+  <rect x="90" y="180" width="620" height="520" fill="#ffffff"/>
+  <rect x="90" y="180" width="620" height="18" fill="#2d7c7b"/>
+  <circle cx="220" cy="430" r="48" fill="#d8c7a5"/>
+  <rect x="300" y="400" width="320" height="18" fill="#123447" opacity="0.2"/>
+  <rect x="300" y="440" width="240" height="12" fill="#123447" opacity="0.12"/>
+  <text x="400" y="860" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#123447">DEMO � Recepci�n</text>
+  <text x="400" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2d7c7b">Imagen provisional</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <rect width="800" height="1000" fill="#eef2ef"/>
+  <rect x="120" y="200" width="560" height="420" fill="#ffffff"/>
+  <rect x="160" y="260" width="220" height="140" fill="#d8c7a5" opacity="0.5"/>
+  <rect x="420" y="260" width="220" height="280" fill="#123447" opacity="0.08"/>
+  <text x="400" y="860" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#123447">DEMO � Consultas</text>
+  <text x="400" y="900" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2d7c7b">Imagen provisional</text>
+</svg>
