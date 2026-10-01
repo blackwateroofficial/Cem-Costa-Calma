@@ -22,7 +22,7 @@ export function Services({ locale, dictionary, compact = false }: ServicesProps)
       <section className="bg-warm py-12 sm:py-24">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <FadeIn>
-            <SectionTitle title={dictionary.services.title} text={dictionary.services.text} />
+            <SectionTitle title={dictionary.services.title} />
           </FadeIn>
           <div className="mt-8 grid gap-4 sm:mt-10 sm:grid-cols-2">
             {items.map((item, index) => {

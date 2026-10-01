@@ -36,7 +36,9 @@
     "onCallHours": "20:00 – 09:00",
     "onCallLabel": "On-call doctor",
     "careLabel": "Specialties",
-    "careValue": "General medicine, emergency care and more"
+    "careValue": "General medicine, emergency care, family medicine, psychology and radiology",
+    "careJoin": "and",
+    "careItems": ["General medicine", "Emergency care", "Family medicine", "Psychology", "Radiology"]
   },
   "insurers": {
     "title": "Insurers",
@@ -70,7 +72,6 @@
   },
   "services": {
     "title": "Specialties",
-    "text": "These specialties appear on the centre’s public listing. Please call to confirm availability.",
     "viewAll": "View all specialties",
     "items": {
       "general": {

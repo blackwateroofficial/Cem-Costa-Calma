@@ -51,7 +51,27 @@ export function QuickInfo({ dictionary }: QuickInfoProps) {
             <Stethoscope className="h-5 w-5" aria-hidden />
           </span>
           <p className="mt-4 text-[0.7rem] uppercase tracking-[0.2em] text-muted">{hours.careLabel}</p>
-          <p className="mt-2 text-[1.05rem] leading-snug text-navy">{hours.careValue}</p>
+          <div className="mt-4 flex items-center gap-3 rounded-xl bg-teal/10 px-4 py-4">
+            <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-teal shadow-sm">
+              <Stethoscope className="h-4 w-4" aria-hidden />
+            </span>
+            <p className="min-w-0 text-balance font-display text-[1.08rem] leading-relaxed text-navy">
+              {hours.careItems.map((name, index) => {
+                const last = index === hours.careItems.length - 1;
+                const beforeLast = index === hours.careItems.length - 2;
+                return (
+                  <span key={name}>
+                    <span className="whitespace-nowrap">{name}</span>
+                    {last ? null : beforeLast ? (
+                      <span className="text-teal"> {hours.careJoin} </span>
+                    ) : (
+                      <span className="text-teal">, </span>
+                    )}
+                  </span>
+                );
+              })}
+            </p>
+          </div>
         </FadeIn>
       </div>
     </section>

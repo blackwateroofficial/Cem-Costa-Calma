@@ -36,7 +36,9 @@
     "onCallHours": "20:00 – 09:00",
     "onCallLabel": "Bereitschaftsarzt",
     "careLabel": "Fachbereiche",
-    "careValue": "Allgemeinmedizin, Notfallversorgung und mehr"
+    "careValue": "Allgemeinmedizin, Notfallmedizin, Familienmedizin, Psychologie und Radiologie",
+    "careJoin": "und",
+    "careItems": ["Allgemeinmedizin", "Notfallmedizin", "Familienmedizin", "Psychologie", "Radiologie"]
   },
   "insurers": {
     "title": "Versicherungen",
@@ -70,7 +72,6 @@
   },
   "services": {
     "title": "Fachbereiche",
-    "text": "Diese Fachbereiche sind im öffentlichen Profil des Zentrums genannt. Bitte rufen Sie an, um die Verfügbarkeit zu klären.",
     "viewAll": "Alle Fachbereiche ansehen",
     "items": {
       "general": {

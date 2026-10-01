@@ -36,7 +36,9 @@
     "onCallHours": "20:00 – 09:00",
     "onCallLabel": "Médico de guardia",
     "careLabel": "Especialidades",
-    "careValue": "Medicina general, urgencias y más"
+    "careValue": "Medicina general, urgencias, medicina familiar, psicología y radiología",
+    "careJoin": "y",
+    "careItems": ["Medicina general", "Urgencias", "Medicina familiar", "Psicología", "Radiología"]
   },
   "insurers": {
     "title": "Aseguradoras",
@@ -70,7 +72,6 @@
   },
   "services": {
     "title": "Especialidades",
-    "text": "Estas especialidades aparecen en el perfil público del centro. Llama para confirmar disponibilidad.",
     "viewAll": "Ver todas las especialidades",
     "items": {
       "general": {
