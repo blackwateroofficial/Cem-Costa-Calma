@@ -16,6 +16,7 @@ export function LanguageSwitcher({ locale, page }: LanguageSwitcherProps) {
           <Link
             key={item}
             href={getLocalizedPath(item, page)}
+            prefetch
             hrefLang={item}
             aria-label={localeNames[item]}
             aria-current={active ? "true" : undefined}

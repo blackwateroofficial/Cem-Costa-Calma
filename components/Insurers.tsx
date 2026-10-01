@@ -36,7 +36,8 @@ function LogoGrid({
               src={logo.src}
               alt={logo.name}
               fill
-              sizes="200px"
+              sizes="(max-width: 768px) 42vw, 180px"
+              quality={60}
               className="object-contain"
             />
           </div>
@@ -48,7 +49,7 @@ function LogoGrid({
 
 export function Insurers({ dictionary }: InsurersProps) {
   return (
-    <section className="bg-white py-12 sm:py-24">
+    <section className="below-fold bg-white py-12 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <FadeIn>
           <SectionTitle align="center" title={dictionary.insurers.title} text={dictionary.insurers.intro} />

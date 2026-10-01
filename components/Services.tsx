@@ -19,7 +19,7 @@ export function Services({ locale, dictionary, compact = false }: ServicesProps)
   return (
     <>
       {compact ? null : <ServiceHighlights dictionary={dictionary} />}
-      <section className="bg-warm py-12 sm:py-24">
+      <section className={`${compact ? "below-fold" : ""} bg-warm py-12 sm:py-24`}>
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <SectionTitle title={dictionary.services.title} />

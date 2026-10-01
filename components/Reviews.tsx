@@ -11,7 +11,7 @@ type ReviewsProps = {
 
 export function Reviews({ dictionary }: ReviewsProps) {
   return (
-    <section className="bg-white py-12 sm:py-24">
+    <section className="below-fold bg-white py-12 sm:py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <FadeIn>
           <div className="rounded-3xl border border-navy/8 bg-warm px-4 py-10 text-center shadow-[0_10px_30px_rgb(18_52_71/0.04)] sm:px-12 sm:py-16">

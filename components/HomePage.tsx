@@ -21,7 +21,7 @@ export function HomePage({ locale, dictionary }: HomePageProps) {
       <ServiceHighlights dictionary={dictionary} />
       <Insurers dictionary={dictionary} />
       <Services locale={locale} dictionary={dictionary} compact />
-      <Facilities dictionary={dictionary} />
+      <Facilities dictionary={dictionary} defer />
       <Reviews dictionary={dictionary} />
     </>
   );

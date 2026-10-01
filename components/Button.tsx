@@ -56,7 +56,7 @@ export function Button({
   }
 
   return (
-    <Link href={href} aria-label={ariaLabel} className={classes}>
+    <Link href={href} prefetch aria-label={ariaLabel} className={classes}>
       {children}
     </Link>
   );
