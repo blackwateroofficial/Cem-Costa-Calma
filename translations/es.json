@@ -156,25 +156,11 @@
     "text": "Llama o usa Cómo llegar."
   },
   "infoPage": {
-    "title": "Información práctica",
-    "intro": "Consulta de 09:00 a 20:00. El resto del día, médico de guardia.",
-    "items": [
-      {
-        "title": "¿Qué es este centro?",
-        "text": "Centro Médico Ever Grillo – Euromedica Jandía, un centro médico en Jandía, Fuerteventura."
-      },
-      {
-        "title": "¿Qué especialidades aparecen publicadas?",
-        "text": "Medicina general, medicina de urgencias, medicina familiar y comunitaria, psicología y radiología."
-      },
-      {
-        "title": "¿Cuándo puedo acudir?",
-        "text": "La consulta está abierta de 09:00 a 20:00. De 20:00 a 09:00 hay un médico de guardia. Atención las 24 horas, todos los días."
-      },
-      {
-        "title": "¿Cómo llego?",
-        "text": "Usa el botón Cómo llegar."
-      }
+    "title": "Cem Costa Calma.",
+    "paragraphs": [
+      "El equipo médico que integra Cem Costa Calma está altamente especializado y cualificado.",
+      "La formación, la experiencia, la unidad de criterio y el rigor médico son nuestras señas de identidad como compañía especializada en atención médica.",
+      "Actualmente contamos con dos profesionales médicos con más de veinte años de experiencia en el sector."
     ]
   },
   "social": {
@@ -257,7 +243,7 @@
     },
     "info": {
       "title": "Información | Centro Médico Ever Grillo",
-      "description": "Dirección, teléfono y datos prácticos de Centro Médico Ever Grillo en Morro Jable."
+      "description": "El equipo médico de Cem Costa Calma está especializado y cualificado, con más de veinte años de experiencia."
     },
     "contact": {
       "title": "Contacto | Centro Médico Ever Grillo",

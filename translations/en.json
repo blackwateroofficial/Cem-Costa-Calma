@@ -156,25 +156,11 @@
     "text": "Call or use Get directions."
   },
   "infoPage": {
-    "title": "Practical information",
-    "intro": "Clinic open from 09:00 to 20:00. An on-call doctor covers the rest of the day.",
-    "items": [
-      {
-        "title": "What is this centre?",
-        "text": "Centro Médico Ever Grillo – Euromedica Jandía, a medical centre in Jandía, Fuerteventura."
-      },
-      {
-        "title": "Which specialties are listed publicly?",
-        "text": "General medicine, emergency medicine, family and community medicine, psychology and radiology."
-      },
-      {
-        "title": "When can I visit?",
-        "text": "The clinic is open from 09:00 to 20:00. From 20:00 to 09:00 an on-call doctor is available. Care 24 hours a day, every day."
-      },
-      {
-        "title": "How do I get there?",
-        "text": "Use the Get directions button."
-      }
+    "title": "Cem Costa Calma.",
+    "paragraphs": [
+      "The medical team at Cem Costa Calma is highly specialised and qualified.",
+      "Training, experience, a shared standard of care and medical rigour define us as a company specialised in medical care.",
+      "We currently have two medical professionals with more than twenty years of experience in the field."
     ]
   },
   "social": {
@@ -257,7 +243,7 @@
     },
     "info": {
       "title": "Information | Centro Médico Ever Grillo",
-      "description": "Address, telephone and practical information for Centro Médico Ever Grillo in Morro Jable."
+      "description": "The Cem Costa Calma medical team is specialised and qualified, with more than twenty years of experience."
     },
     "contact": {
       "title": "Contact | Centro Médico Ever Grillo",

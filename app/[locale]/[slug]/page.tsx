@@ -60,20 +60,46 @@ export default async function SlugPage({ params }: PageProps) {
 
   if (page === "info") {
     return (
-      <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-24 lg:px-8">
-        <FadeIn>
-          <SectionTitle title={dictionary.infoPage.title} text={dictionary.infoPage.intro} />
+      <section className="px-4 py-12 sm:px-6 sm:py-20 lg:px-8 lg:py-28">
+        <FadeIn className="mx-auto max-w-3xl overflow-hidden rounded-3xl border border-navy/8 bg-white shadow-card">
+          <div className="relative overflow-hidden bg-navy px-6 py-10 sm:px-12 sm:py-14">
+            <div
+              className="absolute inset-0 bg-[linear-gradient(145deg,#0c2430_0%,#123447_48%,#1a5360_100%)]"
+              aria-hidden
+            />
+            <div
+              className="absolute -right-10 top-[-40%] h-[140%] w-[55%] rounded-full bg-[radial-gradient(circle,rgba(216,199,165,0.22),transparent_64%)]"
+              aria-hidden
+            />
+            <div
+              className="absolute -left-16 bottom-[-50%] h-[90%] w-[46%] rounded-full bg-[radial-gradient(circle,rgba(45,124,123,0.45),transparent_68%)]"
+              aria-hidden
+            />
+            <span
+              className="absolute right-0 top-0 border-l-[28px] border-t-[28px] border-l-transparent border-t-sand"
+              aria-hidden
+            />
+            <div className="relative">
+              <p className="text-[0.65rem] font-medium uppercase tracking-[0.28em] text-sand sm:text-xs">
+                {dictionary.nav.info}
+              </p>
+              <h1 className="font-display mt-3 text-[2rem] leading-[1.12] text-white sm:text-5xl">
+                {dictionary.infoPage.title}
+              </h1>
+              <span className="mt-6 block h-px w-14 bg-sand/80" aria-hidden />
+            </div>
+          </div>
+          <div className="space-y-6 px-6 py-8 sm:space-y-8 sm:px-12 sm:py-12">
+            {dictionary.infoPage.paragraphs.map((paragraph) => (
+              <p
+                key={paragraph}
+                className="border-l-2 border-sand pl-4 text-base leading-relaxed text-ink/80 sm:pl-5 sm:text-lg"
+              >
+                {paragraph}
+              </p>
+            ))}
+          </div>
         </FadeIn>
-        <div className="mt-12 grid gap-5 md:grid-cols-2">
-          {dictionary.infoPage.items.map((item, index) => (
-            <FadeIn key={item.title} delay={index * 50}>
-              <article className="h-full rounded-2xl border border-navy/8 bg-white p-6 shadow-[0_10px_30px_rgb(18_52_71/0.04)] sm:p-7">
-                <h2 className="font-display text-2xl text-navy">{item.title}</h2>
-                <p className="mt-3 leading-relaxed text-muted">{item.text}</p>
-              </article>
-            </FadeIn>
-          ))}
-        </div>
       </section>
     );
   }
