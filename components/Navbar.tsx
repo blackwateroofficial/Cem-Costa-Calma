@@ -58,8 +58,9 @@ export function Navbar({ locale, dictionary, page }: NavbarProps) {
               <Link
                 key={item.key}
                 href={getLocalizedPath(locale, item.page)}
+                aria-current={page === item.page ? "page" : undefined}
                 className={`text-sm transition-colors ${
-                  page === item.page ? "font-medium text-navy" : "text-ink/70 hover:text-navy"
+                  page === item.page ? "font-bold text-navy" : "font-normal text-ink/70 hover:text-navy"
                 }`}
               >
                 {dictionary.nav[item.key]}
@@ -96,8 +97,9 @@ export function Navbar({ locale, dictionary, page }: NavbarProps) {
                 <Link
                   key={item.key}
                   href={getLocalizedPath(locale, item.page)}
+                  aria-current={page === item.page ? "page" : undefined}
                   className={`rounded-xl px-3 py-3 text-lg ${
-                    page === item.page ? "bg-warm font-medium text-navy" : "text-navy"
+                    page === item.page ? "bg-warm font-bold text-navy" : "font-normal text-navy"
                   }`}
                   onClick={() => setOpen(false)}
                 >
