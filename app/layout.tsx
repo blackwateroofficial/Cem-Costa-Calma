@@ -17,6 +17,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   viewportFit: "cover",
+  colorScheme: "light",
+  themeColor: "#f3f6f5",
 };
 
 const dmSans = DM_Sans({

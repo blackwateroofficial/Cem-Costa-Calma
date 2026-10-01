@@ -16,6 +16,8 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: only light;
+  background-color: var(--color-warm);
 }
 
 @media (prefers-reduced-motion: reduce) {
