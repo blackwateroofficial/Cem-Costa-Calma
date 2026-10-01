@@ -61,13 +61,13 @@ export function Insurers({ dictionary }: InsurersProps) {
           <FadeIn delay={60}>
             <h3 className="font-display text-xl text-navy sm:text-2xl">{dictionary.insurers.international}</h3>
             <LogoGrid items={site.insurers.international} columns="grid-cols-2 md:grid-cols-3" />
-            <div className="mt-6 flex items-center gap-3 rounded-2xl border border-navy/8 bg-warm px-3 py-3 sm:mt-8 sm:gap-4 sm:px-4 sm:py-4">
-              <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-navy/15 bg-white text-navy sm:h-14 sm:w-14">
-                <UserRound className="h-7 w-7 sm:h-8 sm:w-8" strokeWidth={1.75} aria-hidden />
-              </span>
-              <p className="text-sm font-medium leading-snug text-navy sm:text-lg">{dictionary.insurers.private}</p>
-            </div>
           </FadeIn>
+        </div>
+        <div className="mx-auto mt-8 flex w-full max-w-xl items-center justify-center gap-3 rounded-2xl border border-navy/8 bg-warm px-3 py-3 text-center sm:mt-10 sm:gap-4 sm:px-5 sm:py-4 lg:mt-12">
+          <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-navy/15 bg-white text-navy sm:h-14 sm:w-14">
+            <UserRound className="h-7 w-7 sm:h-8 sm:w-8" strokeWidth={1.75} aria-hidden />
+          </span>
+          <p className="text-sm font-medium leading-snug text-navy sm:text-lg">{dictionary.insurers.private}</p>
         </div>
       </div>
     </section>
